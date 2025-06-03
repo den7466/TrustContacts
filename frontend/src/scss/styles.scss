@@ -1,0 +1,22 @@
+.table {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: lightcyan;
+}
+
+.table__row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.table__row:nth-child(odd) {
+    background-color: cyan;
+}
+
+.modal {
+  padding: 20px 30px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  max-width: 500px;
+}
